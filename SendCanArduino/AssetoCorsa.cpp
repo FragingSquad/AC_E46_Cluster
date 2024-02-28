@@ -2,12 +2,16 @@
 #include "AssetoCorsa.h"
 
 
+/**
+ * @brief Handle to the game's shared memory
+*/
 HANDLE hMapFile = NULL;
-void* mapFileBuffer = nullptr;
 
 /**
- * @brief Init the shared memory mapping with the game engine
+ * @brief the address of the game's shared memory
 */
+void* mapFileBuffer = nullptr;
+
 void InitPhysics()
 {
     TCHAR szName[] = TEXT("Local\\acpmf_physics");
@@ -26,10 +30,6 @@ void InitPhysics()
     }
 }
 
-/**
- * @brief get the game shared memory structure
- * @return the game shared memory structure
-*/
 SPageFilePhysics* GetPageFilePhysics() 
 {
     return (SPageFilePhysics*)mapFileBuffer;

@@ -7,7 +7,7 @@ HANDLE serialPort;
 bool OpenSerialPort(const char* portName) 
 {
     serialPort = CreateFileA(portName, GENERIC_READ | GENERIC_WRITE, 0, 0, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0);
-    if (serialPort == INVALID_HANDLE_VALUE) {
+    if (INVALID_HANDLE_VALUE == serialPort) {
         printf_s("Error opening serial port!\n");
         return false;
     }
