@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SerialPortHelper">
+      <UniqueIdentifier>{1cb90989-0295-49e0-892a-eee1ce339ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Can_Utils">
+      <UniqueIdentifier>{1dcf2cb7-0d19-4b9a-a1d0-21b319fbf5f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Can_Utils\Structs">
+      <UniqueIdentifier>{053e0768-2cdc-4d8e-a463-22ff882f6715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Can_Utils\Enums">
+      <UniqueIdentifier>{d5d85052-76b9-4a37-accf-0a3c1a7e7938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetoCorsa">
+      <UniqueIdentifier>{a49020a0-24dd-4ca5-aa1c-ae12e73b0faf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Can_Utils.cpp">
+      <Filter>Can_Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPortHelper.cpp">
+      <Filter>SerialPortHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetoCorsa.cpp">
+      <Filter>AssetoCorsa</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CANFRAME.h">
+      <Filter>Can_Utils\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="CANID_ENUM.h">
+      <Filter>Can_Utils\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="DME2.h">
+      <Filter>Can_Utils\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Can.h">
+      <Filter>Can_Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DME1.h">
+      <Filter>Can_Utils\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="DME2_ENUM.h">
+      <Filter>Can_Utils\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="DME4_ENUM.h">
+      <Filter>Can_Utils\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Can_Utils.h">
+      <Filter>Can_Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPortHelper.h">
+      <Filter>SerialPortHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetoCorsa.h">
+      <Filter>AssetoCorsa</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedFileOut.h">
+      <Filter>AssetoCorsa</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
