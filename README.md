@@ -20,6 +20,12 @@ Got myself an old BMW E46 Cluster and wanted to use it with Asseto Corsa, the so
   - Check the wiring connections for any loose or incorrect connections.
   - Check with Arduino debugger that the frame are received.
 
+#### Todo:
+- Add arduino firmware
+- Add schematic
+- Add video
+- Add compiled executable
+
 #### Resources:
 - [Diagram](https://www.bmwgm5.com/E46_IKE_Connections.htm)
 - [https://github.com/tsharp42/E46ClusterDriver](https://github.com/tsharp42/E46ClusterDriver)
